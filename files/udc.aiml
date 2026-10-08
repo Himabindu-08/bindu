@@ -1,7 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
-</aiml>
+<category>
+    <pattern>HELLO</pattern>
+    <template>
+        Hello! Welcome to our AI chatbot. How can I help you?
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+        My name is AI Assistant.
+    </template>
+</category>
+
+<category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>
+        I am fine. Thank you!
+    </template>
+</category>
+
+<category>
+    <pattern>BYE</pattern>
+    <template>
+        Goodbye! Have a nice day.
+    </template>
+</category>
